@@ -15,7 +15,7 @@ module.exports = {
     "unicorn/escape-case": "warn",
     "unicorn/expiring-todo-comments": "warn",
     "unicorn/explicit-length-check": "warn",
-    "unicorn/filename-case": "warn",
+    "unicorn/filename-case": ["warn", { cases: { camelCase: true, kebabCase: true } }],
     "unicorn/import-index": "warn",
     "unicorn/new-for-builtins": "warn",
     "unicorn/no-abusive-eslint-disable": "warn",
@@ -254,7 +254,10 @@ module.exports = {
   overrides: [
     {
       files: ["*.vue"],
-      rules: { "import/no-default-export": "off" }
+      rules: {
+        "unicorn/filename-case": ["warn", { cases: { pascalCase: true, kebabCase: true } }],
+        "import/no-default-export": "off"
+      }
     }
   ]
 };

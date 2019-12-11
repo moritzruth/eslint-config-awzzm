@@ -2,7 +2,6 @@
 const INLINE_ELEMENTS = require("eslint-plugin-vue/lib/utils/inline-non-void-elements");
 
 module.exports = {
-  "env": { "browser": true },
   "extends": ["plugin:vue/essential"],
   "rules": {
     "vue/html-closing-bracket-spacing": [
