@@ -23,5 +23,11 @@ module.exports = {
       "warn",
       { ignores: ["pre", "textarea", "nuxt-link", ...INLINE_ELEMENTS] }
     ]
-  }
+  },
+  overrides: [
+    {
+      files: ["*.vue"],
+      rules: { "indent": "off" }
+    }
+  ]
 };
