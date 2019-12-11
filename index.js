@@ -141,7 +141,6 @@ module.exports = {
     "prefer-promise-reject-errors": "error",
     "require-await": "warn",
     "yoda": "warn",
-    "init-declarations": "warn",
     "no-shadow": "warn",
     "no-undef-init": "warn",
     "callback-return": "error",
