@@ -27,7 +27,10 @@ module.exports = {
   overrides: [
     {
       files: ["*.vue"],
-      rules: { "indent": "off" }
+      rules: {
+        "indent": "off",
+        "import/no-default-export": "off"
+      }
     }
   ]
 };

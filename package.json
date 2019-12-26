@@ -14,8 +14,15 @@
   "dependencies": {
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-markdown": "^1.0.1",
-    "eslint-plugin-unicorn": "^14.0.1",
-    "eslint-plugin-vue": "^6.0.1"
+    "eslint-plugin-unicorn": "^14.0.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-vue": "^6.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "6"
   },
   "devDependencies": {
     "eslint": "^6.7.2"

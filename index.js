@@ -15,7 +15,6 @@ module.exports = {
     "unicorn/escape-case": "warn",
     "unicorn/expiring-todo-comments": "warn",
     "unicorn/explicit-length-check": "warn",
-    "unicorn/filename-case": ["warn", { cases: { camelCase: true, kebabCase: true } }],
     "unicorn/import-index": "warn",
     "unicorn/new-for-builtins": "warn",
     "unicorn/no-abusive-eslint-disable": "warn",
@@ -77,7 +76,6 @@ module.exports = {
     "import/exports-last": "off",
     "import/no-duplicates": "off",
     "import/no-namespace": "off",
-    "import/extensions": ["warn", "ignorePackages", { "js": "never" }],
     "import/order": "warn",
     "import/newline-after-import": "warn",
     "import/prefer-default-export": "off",
@@ -149,7 +147,7 @@ module.exports = {
     "no-path-concat": "error",
     "no-mixed-requires": "warn",
     "no-sync": "warn",
-    "array-bracket-newline": "warn",
+    "array-bracket-newline": ["warn", "consistent"],
     "array-bracket-spacing": "warn",
     "array-element-newline": ["warn", "consistent"],
     "block-spacing": "warn",
@@ -191,10 +189,10 @@ module.exports = {
     "no-negated-condition": "warn",
     "no-new-object": "warn",
     "no-plusplus": "warn",
-    "no-trailing-spaces": "warn",
+    "no-trailing-spaces": "off",
     "no-unneeded-ternary": "warn",
     "nonblock-statement-body-position": "warn",
-    "object-curly-newline": ["warn", { multiline: true }],
+    "object-curly-newline": "warn",
     "object-curly-spacing": ["warn", "always"],
     "one-var": ["warn", "never"],
     "operator-assignment": "warn",
@@ -208,7 +206,7 @@ module.exports = {
     "semi-spacing": "warn",
     "semi-style": "warn",
     "space-before-blocks": "warn",
-    "space-before-function-paren": "warn",
+    "space-before-function-paren": ["warn", "never"],
     "space-in-parens": "warn",
     "space-infix-ops": "warn",
     "space-unary-ops": ["warn", { words: true, nonwords: false }],
@@ -249,14 +247,5 @@ module.exports = {
         "maxBOF": 0
       }
     ]
-  },
-  overrides: [
-    {
-      files: ["*.vue"],
-      rules: {
-        "unicorn/filename-case": ["warn", { cases: { pascalCase: true, kebabCase: true } }],
-        "import/no-default-export": "off"
-      }
-    }
-  ]
+  }
 };
