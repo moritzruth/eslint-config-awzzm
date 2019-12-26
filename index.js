@@ -206,7 +206,6 @@ module.exports = {
     "semi-spacing": "warn",
     "semi-style": "warn",
     "space-before-blocks": "warn",
-    "space-before-function-paren": ["warn", "never"],
     "space-in-parens": "warn",
     "space-infix-ops": "warn",
     "space-unary-ops": ["warn", { words: true, nonwords: false }],
