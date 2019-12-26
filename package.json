@@ -1,6 +1,6 @@
 {
   "name": "@moritzruth/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The ESLint configuration I use in my projects",
   "main": "index.js",
   "repository": "https://github.com/moritzruth/eslint-config.git",
@@ -17,9 +17,9 @@
     "eslint-plugin-unicorn": "^14.0.1"
   },
   "optionalDependencies": {
-    "eslint-plugin-vue": "^6.0.1",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
-    "eslint-import-resolver-typescript": "^2.0.0"
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-vue": "^6.0.1"
   },
   "peerDependencies": {
     "eslint": "6"
