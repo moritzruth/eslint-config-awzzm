@@ -9,7 +9,8 @@
   "private": false,
   "files": [
     "index.js",
-    "vue.js"
+    "vue.js",
+    "typescript.js"
   ],
   "dependencies": {
     "eslint-plugin-import": "^2.19.1",
