@@ -37,7 +37,9 @@ module.exports = {
         "no-empty-function": "off",
         "@typescript-eslint/no-extra-parens": "warn",
         "no-extra-parens": "off",
-        "@typescript-eslint/no-extraneous-class": "warn",
+        "@typescript-eslint/no-extraneous-class": ["warn", {
+          allowStaticOnly: true
+        }],
         "@typescript-eslint/no-floating-promises": "warn",
         "@typescript-eslint/no-for-in-array": "error",
         "@typescript-eslint/no-inferrable-types": "warn",
@@ -62,7 +64,7 @@ module.exports = {
         "@typescript-eslint/prefer-readonly": "warn",
         "@typescript-eslint/prefer-regexp-exec": "warn",
         "@typescript-eslint/prefer-string-starts-ends-with": "warn",
-        "@typescript-eslint/promise-function-async": "warn",
+        "@typescript-eslint/promise-function-async": "off",
         "require-await": "off",
         "@typescript-eslint/quotes": "warn",
         "quotes": "off",
@@ -79,7 +81,10 @@ module.exports = {
         "@typescript-eslint/space-before-function-paren": ["warn", "never"],
         "space-before-function-paren": "off",
         "@typescript-eslint/type-annotation-spacing": "warn",
-        "@typescript-eslint/unified-signatures": "warn"
+        "@typescript-eslint/unified-signatures": "warn",
+        "import/default": "off",
+        "import/named": "off",
+        "import/no-cycle": "off"
       }
     }
   ]

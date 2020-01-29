@@ -20,7 +20,7 @@ module.exports = {
     "unicorn/no-abusive-eslint-disable": "warn",
     "unicorn/no-array-instanceof": "error",
     "unicorn/no-console-spaces": "warn",
-    "unicorn/no-fn-reference-in-iterator": "error",
+    "unicorn/no-fn-reference-in-iterator": "off",
     "unicorn/no-for-loop": "warn",
     "unicorn/no-hex-escape": "warn",
     "unicorn/no-keyword-prefix": "warn",
