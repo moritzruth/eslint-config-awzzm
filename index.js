@@ -154,7 +154,7 @@ module.exports = {
     "block-spacing": "warn",
     "brace-style": "warn",
     "camelcase": ["warn", { ignoreDestructuring: true }],
-    "capitalized-comments": "warn",
+    "capitalized-comments": "off",
     "comma-dangle": "warn",
     "comma-spacing": "warn",
     "comma-style": "warn",
@@ -246,6 +246,11 @@ module.exports = {
         "maxEOF": 0,
         "maxBOF": 0
       }
-    ]
+    ],
+    "space-before-function-paren": ["error", {
+      anonymous: "never",
+      named: "never",
+      asyncArrow: "always"
+    }]
   }
 };

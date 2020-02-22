@@ -78,12 +78,17 @@ module.exports = {
         ],
         "@typescript-eslint/semi": ["warn", "always", { omitLastInOneLineBlock: false }],
         "semi": "off",
-        "@typescript-eslint/space-before-function-paren": ["warn", "never"],
+        "@typescript-eslint/space-before-function-paren": ["warn", {
+          anonymous: "never",
+          named: "never",
+          asyncArrow: "always"
+        }],
         "space-before-function-paren": "off",
         "@typescript-eslint/type-annotation-spacing": "warn",
         "@typescript-eslint/unified-signatures": "warn",
         "import/default": "off",
         "import/named": "off",
+        "import/namespace": "off",
         "import/no-cycle": "off"
       }
     }
