@@ -5,7 +5,7 @@ module.exports = {
   "extends": ["plugin:vue/essential"],
   "rules": {
     "vue/html-closing-bracket-spacing": [
-      "error", {
+      "warn", {
         "startTag": "never",
         "endTag": "never",
         "selfClosingTag": "never"
