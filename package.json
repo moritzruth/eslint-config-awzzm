@@ -1,6 +1,6 @@
 {
   "name": "@moritzruth/eslint-config",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "The ESLint configuration I use in my projects",
   "main": "index.js",
   "repository": "https://github.com/moritzruth/eslint-config.git",
@@ -23,9 +23,9 @@
     "eslint-plugin-vue": "^6.0.1"
   },
   "peerDependencies": {
-    "eslint": "6"
+    "eslint": "7"
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^7.0.0"
   }
 }
