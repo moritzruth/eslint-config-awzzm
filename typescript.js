@@ -40,7 +40,9 @@ module.exports = {
         "@typescript-eslint/no-extraneous-class": ["warn", {
           allowStaticOnly: true
         }],
-        "@typescript-eslint/no-floating-promises": "warn",
+        "@typescript-eslint/no-floating-promises": ["warn", {
+          ignoreIIFE: true
+        }],
         "@typescript-eslint/no-for-in-array": "error",
         "@typescript-eslint/no-inferrable-types": "warn",
         "@typescript-eslint/no-misused-new": "error",
