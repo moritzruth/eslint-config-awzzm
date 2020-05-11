@@ -189,7 +189,7 @@ module.exports = {
     "no-multi-assign": "warn",
     "no-negated-condition": "warn",
     "no-new-object": "warn",
-    "no-plusplus": "warn",
+    "no-plusplus": "off",
     "no-trailing-spaces": "off",
     "no-unneeded-ternary": "warn",
     "nonblock-statement-body-position": "warn",
