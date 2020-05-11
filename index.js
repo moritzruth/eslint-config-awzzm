@@ -177,7 +177,7 @@ module.exports = {
     "key-spacing": "warn",
     "keyword-spacing": "warn",
     "linebreak-style": "error",
-    "lines-between-class-members": "warn",
+    "lines-between-class-members": "off",
     "max-len": ["warn", { code: 120 }],
     "new-parens": "warn",
     "newline-per-chained-call": "warn",
