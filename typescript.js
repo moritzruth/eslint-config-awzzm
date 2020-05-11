@@ -44,7 +44,9 @@ module.exports = {
         "@typescript-eslint/no-for-in-array": "error",
         "@typescript-eslint/no-inferrable-types": "warn",
         "@typescript-eslint/no-misused-new": "error",
-        "@typescript-eslint/no-misused-promises": "error",
+        "@typescript-eslint/no-misused-promises": ["error", {
+          checksVoidReturn: false
+        }],
         "@typescript-eslint/no-namespace": "error",
         "@typescript-eslint/no-parameter-properties": "warn",
         "@typescript-eslint/no-require-imports": "warn",
