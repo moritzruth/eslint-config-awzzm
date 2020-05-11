@@ -1,10 +1,10 @@
 {
   "name": "@moritzruth/eslint-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "The ESLint configuration I use in my projects",
   "main": "index.js",
   "repository": "https://github.com/moritzruth/eslint-config.git",
-  "author": "Moritz Ruth <dev@moritz-ruth.de>",
+  "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
   "private": false,
   "files": [
