@@ -1,4 +1,4 @@
-# Node.js configuration
+# Node.js Configuration
 You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
@@ -15,7 +15,7 @@ Add it to your ESLint configuration:
 }
 ```
 
-## Specify your node version
+## Specifying Your Node.js Version
 In order to work properly,
 [`node/no-unsupported-features/es-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-builtins.md),
 [`node/no-unsupported-features/es-syntax`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-syntax.md) and

@@ -1,4 +1,4 @@
-# Base configuration
+# Base Configuration
 ```shell script
 npm install eslint-config-awzzm
 # or
@@ -12,7 +12,7 @@ Add it to your ESLint configuration:
 }
 ```
 
-## Most significant rules
+## Most Significant Rules
 - Files should use kebab case (`unicorn/filename-case`)
 ```
 ├── package.json

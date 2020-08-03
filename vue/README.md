@@ -1,4 +1,4 @@
-# Vue.js configuration
+# Vue.js Configuration
 You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
@@ -17,7 +17,7 @@ Add it to your ESLint configuration:
 
 > Note: If you need to use a custom ESLint parser, [read this](https://eslint.vuejs.org/user-guide/#how-to-use-a-custom-parser).
 
-## Most significant rules
+## Most Significant Rules
 - Script tag base intent multiplier is 1 (`vue/script-indent`)
 ```vue
 // ✔️ Good
