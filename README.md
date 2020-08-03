@@ -9,7 +9,7 @@ See the corresponding files for the different configurations:
 
 ➡️ **[Node.js](/node)**
 
-➡️ **[TypeScript](/typescript)**
+➡️ **[TypeScript](/ts)**
 
 > Note: You don't need to install the base if you want to use a more specific configuration
 > file (for example `eslint-config-awzzm-vue`)
