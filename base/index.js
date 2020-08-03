@@ -206,7 +206,7 @@ module.exports = {
     "max-params": "off",
     "max-statements": "off",
     "max-statements-per-line": "off",
-    "multiline-comment-style": "warn",
+    "multiline-comment-style": "off",
     "multiline-ternary": ["warn", "always-multiline"],
     "new-cap": "off",
     "new-parens": "warn",

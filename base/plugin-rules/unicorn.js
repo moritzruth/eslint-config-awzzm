@@ -1,4 +1,4 @@
-const { prefixKeys } = require("../utils");
+const { prefixKeys } = require("../utils")
 
 // https://github.com/sindresorhus/eslint-plugin-unicorn#rules
 
