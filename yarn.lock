@@ -388,10 +388,10 @@ eslint-ast-utils@^1.1.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-awzzm@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-awzzm/-/eslint-config-awzzm-1.0.0.tgz#bfacd5c55af0a39cc6a4c049dbdcb20a12c7516b"
-  integrity sha512-A14PcV/uYVvUg3vPdJr/kNy99UotBxDvbAiG3pt3Qw9WIJSLOJsbMUV/JMHalUeVGzox7/Ygiw9YrzoSEIPCrQ==
+eslint-config-awzzm@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-awzzm/-/eslint-config-awzzm-1.0.1.tgz#fb0ec0fe1d02da68aa5f53197509c8c827dcfef0"
+  integrity sha512-5Z1wWsxllQqW3+6YFCrcTCepa8qjc8Rq2MR3Ly7/+j6uF7tsvCpUK90EUxixUIxpfcTfCOMEIAX5tm+oSpM6ww==
   dependencies:
     eslint-plugin-import "^2.22.0"
     eslint-plugin-unicorn "^21.0.0"
