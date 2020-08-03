@@ -28,7 +28,7 @@ module.exports = {
             }
           ],
           "member-ordering": "off",
-          "member-signature-style": "warn",
+          "method-signature-style": "warn",
           "naming-convention": "warn",
           "no-base-to-string": "warn",
           "no-confusing-non-null-assertion": "warn",
@@ -64,7 +64,7 @@ module.exports = {
           "no-var-required": "off",
           "prefer-as-const": "warn",
           "prefer-enum-initializers": "off",
-          "prefer-for-off": "warn",
+          "prefer-for-of": "warn",
           "prefer-function-type": "off",
           "prefer-includes": "warn",
           "prefer-literal-enum-member": "warn",
