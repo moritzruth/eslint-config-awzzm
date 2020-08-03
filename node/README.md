@@ -1,0 +1,33 @@
+# Node.js configuration
+You don't need to install the base configuration (`eslint-config-awzzm`)
+because this configuration extends it.
+
+```shell script
+npm install eslint-config-awzzm-node
+# or
+yarn add eslint-config-awzzm-node
+```
+
+Add it to your ESLint configuration:
+```json
+{
+  "extends": ["awzzm-node"]
+}
+```
+
+## Specify your node version
+In order to work properly,
+[`node/no-unsupported-features/es-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-builtins.md),
+[`node/no-unsupported-features/es-syntax`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-syntax.md) and
+[`node/no-unsupported-features/node-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/node-builtins.md)
+[require you](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/node-builtins.md#configured-nodejs-version-range)
+to specify the Node.js version you're using in your package.json like this:
+```json
+{
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
+```
+
+Also, you should lint your project with the same Node.js version as you will use for running it.

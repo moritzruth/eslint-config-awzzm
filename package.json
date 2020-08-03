@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-awzzm": "^1.0.0"
+  }
+}

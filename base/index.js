@@ -7,7 +7,7 @@ module.exports = {
     "unicorn",
     "import"
   ],
-  rules: Object.assign({
+  rules: {
     /**
      * Possible Errors
      */
@@ -304,6 +304,7 @@ module.exports = {
     "require-yield": "error",
     "rest-spread-spacing": "warn",
     "template-curly-spacing": "warn",
-    "yield-star-spacing": "warn"
-  }, pluginRules)
+    "yield-star-spacing": "warn",
+    ...pluginRules
+  }
 }
