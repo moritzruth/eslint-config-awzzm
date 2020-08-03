@@ -1,7 +1,7 @@
 # eslint-config-awzzm
 > ESLint configurations for JavaScript, TypeScript, Node.js and Vue.js
 
-See the corresponding files for the different configurations
+See the corresponding files for the different configurations:
 - [Base (JavaScript)](/base)
 - [Vue.js](/vue)
 - Node.js (coming soon)
