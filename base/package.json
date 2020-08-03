@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-awzzm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ESLint configuration for modern JavaScript",
   "main": "index.js",
   "repository": "https://github.com/moritzruth/eslint-config-awzzm.git",
