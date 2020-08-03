@@ -9,6 +9,9 @@
   "scripts": {
     "validate": "eslint index.js -c index.js --env es6"
   },
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "files": [
     "index.js",
     "plugin-rules/*",

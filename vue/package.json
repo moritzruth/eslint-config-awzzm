@@ -9,6 +9,9 @@
   "scripts": {
     "validate": "eslint TestComponent.vue -c index.js --env browser,es6"
   },
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "files": [
     "index.js",
     "README.md",
