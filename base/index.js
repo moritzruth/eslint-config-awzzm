@@ -7,7 +7,7 @@ module.exports = {
     "unicorn",
     "import"
   ],
-  rules: {
+  rules: Object.assign({
     /**
      * Possible Errors
      */
@@ -60,7 +60,7 @@ module.exports = {
     "array-callback-return": [
       "warn",
       {
-        // See https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md#conflict-with-eslint-array-callback-return-rule
+        // See https://git.io/JJrFt
         allowImplicit: true
       }
     ],
@@ -207,7 +207,7 @@ module.exports = {
     "max-statements": "off",
     "max-statements-per-line": "off",
     "multiline-comment-style": "warn",
-    "multiline-ternary": "always-multiline",
+    "multiline-ternary": ["warn", "always-multiline"],
     "new-cap": "off",
     "new-parens": "warn",
     "newline-per-chained-call": "warn",
@@ -221,9 +221,9 @@ module.exports = {
     "no-multi-assign": "warn",
     "no-multiple-empty-lines": [
       "warn", {
-        "max": 1,
-        "maxEOF": 0,
-        "maxBOF": 0
+        max: 1,
+        maxEOF: 0,
+        maxBOF: 0
       }
     ],
     "no-negated-condition": "warn",
@@ -279,7 +279,7 @@ module.exports = {
     "arrow-body-style": "warn",
     "arrow-parens": ["warn", "as-needed", { requireForBlockBody: false }],
     "arrow-spacing": "warn",
-    "constructor-spacing": "warn",
+    "constructor-super": "warn",
     "generator-star-spacing": ["warn", { before: false, after: true }],
     "no-class-assign": "error",
     "no-confusing-arrow": "off",
@@ -304,7 +304,6 @@ module.exports = {
     "require-yield": "error",
     "rest-spread-spacing": "warn",
     "template-curly-spacing": "warn",
-    "yield-star-spacing": "warn",
-    ...pluginRules
-  }
-};
+    "yield-star-spacing": "warn"
+  }, pluginRules)
+}

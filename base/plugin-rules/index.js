@@ -1,1 +1,1 @@
-module.exports = { ...require("./import"), ...require("./unicorn") }
+module.exports = Object.assign({}, require("./import"), require("./unicorn"))

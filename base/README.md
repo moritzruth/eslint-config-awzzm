@@ -1,3 +1,17 @@
+# Base configuration
+```shell script
+npm install eslint-config-awzzm
+# or
+yarn add eslint-config-awzzm
+```
+
+Add it to your ESLint configuration:
+```json
+{
+  "extends": ["awzzm"]
+}
+```
+
 ## Most significant rules
 - Files should use kebab case (`unicorn/filename-case`)
 ```
@@ -13,28 +27,28 @@
 
 - Use double quotes (`quotes`)
 ```js
-// Good
+// ✔️ Good
 const a = "value"
 
-// Bad
+// ❌ Bad
 const b = 'value'
 ```
 
 - Don't use semicolons (`semi`)
 ```js
-// Good
+// ✔️ Good
 console.log("hi!")
 
-// Bad
+// ❌ Bad
 console.log("hi!");
 ```
 
 - Don't use default exports (`import/no-default-export`)
 > Why: [1](https://basarat.gitbook.io/typescript/main-1/defaultisbad) and [2](https://blog.neufund.org/why-we-have-banned-default-exports-and-you-should-do-the-same-d51fdc2cf2ad)
 ```js
-// Good
+// ✔️ Good
 export const sayHello = () => console.log("hello")
 
-// Bad
+// ❌ Bad
 export default () => console.log("hello")
 ```

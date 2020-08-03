@@ -1,25 +1,24 @@
 {
-  "name": "eslint-config-awzzm",
+  "name": "eslint-config-awzzm-vue",
   "version": "1.0.0",
-  "description": "An ESLint configuration for modern JavaScript",
+  "description": "An ESLint configuration for Vue.js",
   "main": "index.js",
   "repository": "https://github.com/moritzruth/eslint-config-awzzm.git",
   "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
   "scripts": {
-    "validate": "eslint index.js -c index.js --env es6"
+    "validate": "eslint TestComponent.vue -c index.js --env browser,es6"
   },
   "files": [
     "index.js",
-    "plugin-rules/*",
     "README.md",
-    "LICENSE",
-    "utils.js"
+    "LICENSE"
   ],
   "dependencies": {
+    "eslint-config-awzzm": "^1.0.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-unicorn": "^21.0.0",
-    "object.fromentries": "^2.0.2"
+    "eslint-plugin-vue": "^6.2.2"
   },
   "peerDependencies": {
     "eslint": "^7.6.0"

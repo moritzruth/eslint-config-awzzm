@@ -19,9 +19,9 @@ module.exports = prefixKeys("import/", {
   "max-dependencies": "off",
   "no-unassigned-import": "off",
   "no-named-default": "warn",
-  "no-default-export": "warn", // TODO: Disable for Vue.js
+  "no-default-export": "warn",
   "no-named-export": "off",
-  "no-anonymous-default-export": "warn", // TODO: Disable for Vue.js
+  "no-anonymous-default-export": "warn",
   "group-exports": "off",
   "dynamic-import-chunkname": "off"
 })

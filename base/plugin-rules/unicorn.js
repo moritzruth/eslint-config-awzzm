@@ -14,11 +14,12 @@ module.exports = prefixKeys("unicorn/", {
   "filename-case": [
     "error",
     {
-      case: "kebabCase" // TODO: Set to "pascalCase" for Vue.js
+      case: "kebabCase"
     }
   ],
   "import-index": "warn",
-  "import-style": "warn",
+  // TODO: Uncomment when released
+  // "import-style": "warn",
   "new-for-builtins": "warn",
   "no-abusive-eslint-disable": "warn",
   "no-array-instanceof": "error",
