@@ -1,4 +1,4 @@
-# Vue.js Configuration
+# Vue.js and Nuxt.js Configuration
 You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
@@ -14,6 +14,8 @@ Add it to your ESLint configuration:
   "extends": ["awzzm-vue"]
 }
 ```
+
+**If you're using Nuxt.js, replace `awzzm-vue` with `awzzm-vue/nuxt`.**
 
 > Note: If you need to use a custom ESLint parser, [read this](https://eslint.vuejs.org/user-guide/#how-to-use-a-custom-parser).
 

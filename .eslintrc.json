@@ -1,4 +1,5 @@
 {
+  "root": true,
   "extends": "awzzm",
   "env": {
     "node": true,

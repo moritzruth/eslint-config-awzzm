@@ -72,7 +72,7 @@ module.exports = {
     // "html-comment-content-newline": "warn",
     // "html-comment-content-spacing": "warn",
     "match-component-file-name": "warn",
-    "no-boolean-default": "error",
+    "no-boolean-default": "warn",
     // "no-potential-component-option-typo": "warn",
     "no-reserved-component-names": "error",
     // "no-useless-mustaches": "warn",
