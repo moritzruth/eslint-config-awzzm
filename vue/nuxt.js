@@ -16,7 +16,7 @@ module.exports = {
       files: ["nuxt.config.js"],
       rules: {
         "import/no-anonymous-default-export": "off",
-        "no-empty-function": "off"
+        "import/no-default-export": "off"
       }
     }
   ]
