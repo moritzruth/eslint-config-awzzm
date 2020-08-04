@@ -13,7 +13,7 @@ module.exports = {
       }
     },
     {
-      files: ["nuxt.config.js"],
+      files: ["nuxt.config.js", "plugins/*"],
       rules: {
         "import/no-anonymous-default-export": "off",
         "import/no-default-export": "off"

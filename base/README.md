@@ -1,3 +1,5 @@
+[**⬅️ Back to Overview**](https://github.com/moritzruth/eslint-config-awzzm)
+
 # Base Configuration
 ```shell script
 npm install eslint-config-awzzm

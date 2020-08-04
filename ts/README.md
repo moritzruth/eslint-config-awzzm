@@ -1,3 +1,5 @@
+[**⬅️ Back to Overview**](https://github.com/moritzruth/eslint-config-awzzm)
+
 # TypeScript Configuration
 You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
