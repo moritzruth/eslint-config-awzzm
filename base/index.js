@@ -156,7 +156,7 @@ module.exports = {
     "no-shadow": "warn",
     "no-undef": "error",
     "no-undef-init": "warn",
-    "no-undefined": "error",
+    "no-undefined": "off",
     "no-unused-vars": "warn",
     "no-use-before-define": "error",
 
