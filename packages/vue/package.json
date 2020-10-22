@@ -15,7 +15,8 @@
   },
   "files": [
     "nuxt.js",
-    "v3.js"
+    "v3.js",
+    "inline-elements.js"
   ],
   "dependencies": {
     "eslint-config-awzzm": "^1.1.0",
