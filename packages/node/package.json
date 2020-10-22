@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-awzzm-node",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "An ESLint configuration for Node.js",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "eslint-config-awzzm": "^1.0.2",
+    "eslint-config-awzzm": "^1.1.0",
     "eslint-plugin-node": "^11.1.0",
     "semver": "^7.3.2"
   }
