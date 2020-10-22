@@ -14,10 +14,11 @@
     "node": ">=10.0.0"
   },
   "files": [
-    "nuxt.js"
+    "nuxt.js",
+    "v3.js"
   ],
   "dependencies": {
     "eslint-config-awzzm": "^1.1.0",
-    "eslint-plugin-vue": "^6.2.2"
+    "eslint-plugin-vue": "^7.1.0"
   }
 }

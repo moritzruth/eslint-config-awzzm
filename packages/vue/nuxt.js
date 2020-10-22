@@ -1,15 +1,21 @@
 module.exports = {
   extends: "./index.js",
   env: {
-    es6: true,
     browser: true,
-    node: true
+    node: false
   },
   overrides: [
     {
       files: ["pages/*.vue", "layouts/*.vue"],
       rules: {
         "unicorn/filename-case": ["warn", { case: "kebabCase" }]
+      }
+    },
+    {
+      files: ["*.config.js"],
+      env: {
+        node: true,
+        browser: false
       }
     },
     {

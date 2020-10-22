@@ -17,6 +17,7 @@ Add it to your ESLint configuration:
 }
 ```
 
+**If you're using v3 of Vue.js, replace `awzzm-vue` with `awzzm-vue/v3`.**
 **If you're using Nuxt.js, replace `awzzm-vue` with `awzzm-vue/nuxt`.**
 
 > Note: If you need to use a custom ESLint parser, [read this](https://eslint.vuejs.org/user-guide/#how-to-use-a-custom-parser).
