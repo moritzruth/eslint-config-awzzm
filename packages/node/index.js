@@ -4,8 +4,11 @@ const semverSatisfies = require("semver/functions/satisfies")
 const promisesAPIsStable = semverSatisfies(process.version, ">=11.14.0")
 
 module.exports = {
-  extends: ["awzzm"],
+  extends: "awzzm",
   plugins: ["node"],
+  env: {
+    node: true
+  },
   rules: prefixKeys("node/", {
     "handle-callback-err": "warn",
     "no-callback-literal": "warn",

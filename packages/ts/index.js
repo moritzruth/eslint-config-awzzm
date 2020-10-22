@@ -8,6 +8,9 @@ module.exports = {
     sourceType: "module",
     ecmaVersion: 2020
   },
+  env: {
+    es6: true
+  },
   overrides: [
     {
       files: ["*.ts"],
