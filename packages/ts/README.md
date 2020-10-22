@@ -5,9 +5,9 @@ You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
 ```shell script
-npm install eslint-config-awzzm-ts
+npm install --save-dev eslint-config-awzzm-ts
 # or
-yarn add eslint-config-awzzm-ts
+yarn add -D eslint-config-awzzm-ts
 ```
 
 Add it to your ESLint configuration:

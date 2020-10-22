@@ -1,10 +1,10 @@
-[**⬅️ Back to Overview**](https://github.com/moritzruth/eslint-config-awzzm)
+[**⬅️ Back to overview**](https://github.com/moritzruth/eslint-config-awzzm)
 
 # Base Configuration
 ```shell script
-npm install eslint-config-awzzm
+npm install --save-dev eslint-config-awzzm
 # or
-yarn add eslint-config-awzzm
+yarn add -D eslint-config-awzzm
 ```
 
 Add it to your ESLint configuration:
@@ -15,7 +15,7 @@ Add it to your ESLint configuration:
 ```
 
 ## Most Significant Rules
-- Files should use kebab case (`unicorn/filename-case`)
+- File names should be kebab case (`unicorn/filename-case`)
 ```
 ├── package.json
 ├── LICENSE

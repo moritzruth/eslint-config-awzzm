@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-awzzm-ts",
+  "main": "index.js",
+  "version": "1.0.2",
+  "description": "An ESLint configuration for TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moritzruth/eslint-config-awzzm.git",
+    "directory": "packages/ts"
+  },
+  "author": "Moritz Ruth <dev@moritzruth.de>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint-config-awzzm": "^1.0.2"
+  }
+}

@@ -1,27 +1,25 @@
 {
   "name": "eslint-config-awzzm",
+  "main": "index.js",
   "version": "1.0.2",
   "description": "An ESLint configuration for modern JavaScript",
-  "main": "index.js",
-  "repository": "https://github.com/moritzruth/eslint-config-awzzm.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moritzruth/eslint-config-awzzm.git",
+    "directory": "packages/base"
+  },
   "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
   "engines": {
     "node": ">=10.0.0"
   },
   "files": [
-    "index.js",
     "plugin-rules/*",
-    "README.md",
-    "LICENSE",
     "utils.js"
   ],
   "dependencies": {
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-unicorn": "^21.0.0",
     "object.fromentries": "^2.0.2"
-  },
-  "peerDependencies": {
-    "eslint": "^7.6.0"
   }
 }

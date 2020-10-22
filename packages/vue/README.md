@@ -5,9 +5,9 @@ You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
 ```shell script
-npm install eslint-config-awzzm-vue
+npm install --save-dev eslint-config-awzzm-vue
 # or
-yarn add eslint-config-awzzm-vue
+yarn add -D eslint-config-awzzm-vue
 ```
 
 Add it to your ESLint configuration:

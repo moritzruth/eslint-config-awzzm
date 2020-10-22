@@ -5,9 +5,9 @@ You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
 ```shell script
-npm install eslint-config-awzzm-node
+npm install --save-dev eslint-config-awzzm-node
 # or
-yarn add eslint-config-awzzm-node
+yarn add -D eslint-config-awzzm-node
 ```
 
 Add it to your ESLint configuration:
@@ -32,4 +32,4 @@ to specify the Node.js version you're using in your package.json like this:
 }
 ```
 
-Also, you should lint your project with the same Node.js version as you will use for running it.
+Also, you should lint your project with the same Node.js version as the one you use for running it.
