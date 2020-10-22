@@ -4,6 +4,10 @@ module.exports = {
   extends: ["awzzm"],
   plugins: ["@typescript-eslint"],
   parser: "@typescript-eslint/parser",
+  parserOptions: {
+    sourceType: "module",
+    ecmaVersion: 2020
+  },
   overrides: [
     {
       files: ["*.ts"],
