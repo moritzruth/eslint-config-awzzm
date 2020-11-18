@@ -84,6 +84,13 @@ module.exports = {
       rules: {
         "vue/comment-directive": "off"
       }
+    },
+    {
+      files: ["./*.config.js"],
+      env: {
+        node: true,
+        browser: false
+      }
     }
   ]
 }
