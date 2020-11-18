@@ -86,7 +86,7 @@ module.exports = {
       }
     },
     {
-      files: ["*.config.js"],
+      files: ["./*.config.js"],
       env: {
         node: true,
         browser: false

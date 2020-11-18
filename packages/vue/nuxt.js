@@ -12,13 +12,6 @@ module.exports = {
       }
     },
     {
-      files: ["*.config.js"],
-      env: {
-        node: true,
-        browser: false
-      }
-    },
-    {
       files: ["nuxt.config.js", "plugins/*"],
       rules: {
         "import/no-anonymous-default-export": "off",
