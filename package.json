@@ -2,7 +2,8 @@
   "name": "eslint-config-awzzm",
   "private": true,
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
