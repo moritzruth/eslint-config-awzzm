@@ -6,7 +6,11 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
     sourceType: "module",
-    ecmaVersion: 2020
+    ecmaVersion: 2020,
+    ecmaFeatures: {
+      legacyDecorators: true
+    },
+    project: "tsconfig.json"
   },
   env: {
     es6: true
