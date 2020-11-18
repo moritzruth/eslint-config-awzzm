@@ -71,7 +71,12 @@ module.exports = {
           {
             case: "pascalCase"
           }
-        ]
+        ],
+        "unicorn/prevent-abbreviations": ["warn", {
+          replacements: {
+            props: false
+          }
+        }]
       }
     }
   ]
