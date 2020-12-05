@@ -6,13 +6,13 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["pages/*.vue", "layouts/*.vue"],
+      files: ["pages/**/*.vue", "layouts/**/*.vue"],
       rules: {
         "unicorn/filename-case": ["warn", { case: "kebabCase" }]
       }
     },
     {
-      files: ["nuxt.config.js", "plugins/*"],
+      files: ["nuxt.config.js", "plugins/**/*"],
       rules: {
         "import/no-anonymous-default-export": "off",
         "import/no-default-export": "off"
