@@ -133,6 +133,9 @@ module.exports = {
       env: {
         node: true,
         browser: false
+      },
+      rules: {
+        "import/no-default-export": "off"
       }
     }
   ]
