@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-awzzm-ts",
   "main": "index.js",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "An ESLint configuration for TypeScript",
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
-    "eslint-config-awzzm": "^1.4.0"
+    "eslint-config-awzzm": "^1.4.1"
   }
 }

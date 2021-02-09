@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-awzzm-vue",
   "main": "index.js",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "An ESLint configuration for Vue.js and Nuxt.js",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "inline-elements.js"
   ],
   "dependencies": {
-    "eslint-config-awzzm": "^1.4.0",
+    "eslint-config-awzzm": "^1.4.1",
     "eslint-plugin-vue": "^7.1.0"
   }
 }
