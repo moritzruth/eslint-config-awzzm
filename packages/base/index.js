@@ -7,6 +7,9 @@ module.exports = {
     "unicorn",
     "import"
   ],
+  env: {
+    es6: true
+  },
   rules: {
     /**
      * Possible Errors
@@ -29,7 +32,7 @@ module.exports = {
     "no-empty-character-class": "warn",
     "no-ex-assign": "warn",
     "no-extra-boolean-cast": "warn",
-    "no-extra-parens": ["warn", "all", { nestedBinaryExpressions: false }],
+    "no-extra-parens": "off",
     "no-extra-semi": "warn",
     "no-func-assign": "warn",
     "no-import-assign": "warn",
@@ -65,7 +68,7 @@ module.exports = {
       }
     ],
     "block-scoped-var": "off",
-    "class-methods-use-this": "warn",
+    "class-methods-use-this": "off",
     "complexity": "off",
     "consistent-return": "warn",
     "curly": "off",
@@ -306,5 +309,13 @@ module.exports = {
     "template-curly-spacing": "warn",
     "yield-star-spacing": "warn",
     ...pluginRules
-  }
+  },
+  overrides: [
+    {
+      files: [".eslintrc.js"],
+      env: {
+        node: true
+      }
+    }
+  ]
 }

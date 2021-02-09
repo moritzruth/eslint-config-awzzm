@@ -1,13 +1,13 @@
 const { prefixKeys } = require("eslint-config-awzzm/utils")
-const semverSatisfies = require("semver/functions/satisfies")
-
-const promisesAPIsStable = semverSatisfies(process.version, ">=11.14.0")
 
 module.exports = {
   extends: "awzzm",
   plugins: ["node"],
   env: {
     node: true
+  },
+  parserOptions: {
+    ecmaVersion: 2020
   },
   rules: prefixKeys("node/", {
     "handle-callback-err": "warn",
@@ -21,7 +21,8 @@ module.exports = {
     "prefer-global/text-decoder": "warn",
     "prefer-global/url-search-params": "warn",
     "prefer-global/url": "warn",
-    "prefer-promises/dns": promisesAPIsStable ? "warn" : "off",
-    "prefer-promises/fs": promisesAPIsStable ? "warn" : "off"
+    "prefer-promises/dns": "warn",
+    "prefer-promises/fs": "warn",
+    "node/prefer-global/url": "off" // see https://github.com/sindresorhus/got/issues/989
   })
 }

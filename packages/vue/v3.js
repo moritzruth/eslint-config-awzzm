@@ -11,6 +11,9 @@ module.exports = {
     browser: true,
     es6: true
   },
+  globals: {
+    process: true
+  },
   rules: prefixKeys("vue/", {
     /**
      * Essential
@@ -133,6 +136,10 @@ module.exports = {
       env: {
         node: true,
         browser: false
+      },
+      rules: {
+        "import/no-anonymous-default-export": "off",
+        "import/no-default-export": "off"
       }
     }
   ]

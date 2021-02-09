@@ -10,9 +10,6 @@
   },
   "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
-  "engines": {
-    "node": ">=10.0.0"
-  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",

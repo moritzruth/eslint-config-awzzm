@@ -3,11 +3,11 @@
   "private": true,
   "scripts": {
     "lint": "eslint .",
-    "release": "lerna publish"
+    "bootstrap": "lerna bootstrap",
+    "release": "lerna publish && release"
   },
   "devDependencies": {
-    "eslint": "^7.6.0",
-    "eslint-config-awzzm": "^1.0.1",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "release": "^6.3.0"
   }
 }

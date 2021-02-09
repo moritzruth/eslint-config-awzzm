@@ -1,7 +1,7 @@
 [**⬅️ Back to overview**](https://github.com/moritzruth/eslint-config-awzzm)
 
 # Base Configuration
-```shell script
+```sh
 npm install --save-dev eslint-config-awzzm
 # or
 yarn add -D eslint-config-awzzm

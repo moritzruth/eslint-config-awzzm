@@ -4,7 +4,9 @@
 You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
-```shell script
+Node.js v14 is required.
+
+```sh
 npm install --save-dev eslint-config-awzzm-node
 # or
 yarn add -D eslint-config-awzzm-node

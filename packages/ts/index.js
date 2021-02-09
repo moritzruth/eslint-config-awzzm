@@ -12,10 +12,11 @@ module.exports = {
     },
     project: "tsconfig.json"
   },
-  env: {
-    es6: true
-  },
   overrides: [
+    {
+      files: ["eslintrc.js", "*.config.js"],
+      parser: undefined
+    },
     {
       files: ["*.ts"],
       rules: {
@@ -69,7 +70,7 @@ module.exports = {
           "no-unnecessary-type-assertion": "warn",
           "no-unsafe-assignment": "warn",
           "no-unsafe-call": "warn",
-          "no-unsafe-member-access": "warn",
+          "no-unsafe-member-access": "off",
           "no-unsafe-return": "warn",
           "no-unused-vars-experimental": "off",
           "no-var-required": "off",
@@ -158,7 +159,13 @@ module.exports = {
         "quotes": "off",
         "require-await": "off",
         "semi": "off",
-        "space-before-function-paren": "off"
+        "space-before-function-paren": "off",
+        "unicorn/filename-case": ["warn", {
+          cases: {
+            camelCase: true,
+            pascalCase: true
+          }
+        }]
       }
     }
   ]

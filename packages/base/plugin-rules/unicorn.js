@@ -31,7 +31,7 @@ module.exports = prefixKeys("unicorn/", {
   "no-nested-ternary": "warn",
   "no-new-buffer": "error",
   "no-object-as-default-parameter": "warn",
-  "no-process-exit": "warn",
+  "no-process-exit": "off",
   "no-unreadable-array-destructuring": "off",
   "no-unsafe-regex": "error",
   "no-unused-properties": "off",
@@ -60,7 +60,14 @@ module.exports = prefixKeys("unicorn/", {
   "prefer-text-content": "error",
   "prefer-trim-start-end": "error",
   "prefer-type-error": "warn",
-  "prevent-abbreviations": "warn",
+  "unicorn/prevent-abbreviations": ["warn", {
+    replacements: {
+      args: false,
+      ctx: false,
+      req: false,
+      res: false
+    }
+  }],
   "string-content": "off",
   "throw-new-error": "warn"
 })

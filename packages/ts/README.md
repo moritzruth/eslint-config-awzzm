@@ -4,7 +4,7 @@
 You don't need to install the base configuration (`eslint-config-awzzm`)
 because this configuration extends it.
 
-```shell script
+```sh
 npm install --save-dev eslint-config-awzzm-ts
 # or
 yarn add -D eslint-config-awzzm-ts
