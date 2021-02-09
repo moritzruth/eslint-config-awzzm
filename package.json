@@ -4,10 +4,9 @@
   "scripts": {
     "lint": "eslint .",
     "bootstrap": "lerna bootstrap",
-    "release": "lerna publish && release"
+    "release": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^3.22.1",
-    "release": "^6.3.0"
+    "lerna": "^3.22.1"
   }
 }
