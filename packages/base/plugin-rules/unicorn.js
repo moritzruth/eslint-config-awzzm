@@ -18,8 +18,6 @@ module.exports = prefixKeys("unicorn/", {
     }
   ],
   "import-index": "warn",
-  // TODO: Uncomment when released
-  // "import-style": "warn",
   "new-for-builtins": "warn",
   "no-abusive-eslint-disable": "warn",
   "no-array-instanceof": "error",
@@ -60,7 +58,7 @@ module.exports = prefixKeys("unicorn/", {
   "prefer-text-content": "error",
   "prefer-trim-start-end": "error",
   "prefer-type-error": "warn",
-  "unicorn/prevent-abbreviations": ["warn", {
+  "prevent-abbreviations": ["warn", {
     replacements: {
       args: false,
       ctx: false,
