@@ -159,13 +159,7 @@ module.exports = {
         "quotes": "off",
         "require-await": "off",
         "semi": "off",
-        "space-before-function-paren": "off",
-        "unicorn/filename-case": ["warn", {
-          cases: {
-            camelCase: true,
-            pascalCase: true
-          }
-        }]
+        "space-before-function-paren": "off"
       }
     }
   ]

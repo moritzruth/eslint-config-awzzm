@@ -112,12 +112,6 @@ module.exports = {
         "indent": "off",
         "import/no-default-export": "off",
         "import/no-anonymous-default-export": "off",
-        "unicorn/filename-case": [
-          "error",
-          {
-            case: "pascalCase"
-          }
-        ],
         "unicorn/prevent-abbreviations": ["warn", {
           replacements: {
             props: false

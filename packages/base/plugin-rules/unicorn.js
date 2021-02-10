@@ -11,12 +11,7 @@ module.exports = prefixKeys("unicorn/", {
   "escape-case": "warn",
   "expiring-todo-comments": "warn",
   "explicit-length-check": "warn",
-  "filename-case": [
-    "error",
-    {
-      case: "kebabCase"
-    }
-  ],
+  "filename-case": "off",
   "import-index": "warn",
   "new-for-builtins": "warn",
   "no-abusive-eslint-disable": "warn",

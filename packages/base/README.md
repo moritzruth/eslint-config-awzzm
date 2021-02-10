@@ -15,18 +15,6 @@ Add it to your ESLint configuration:
 ```
 
 ## Most Significant Rules
-- File names should be kebab case (`unicorn/filename-case`)
-```
-├── package.json
-├── LICENSE
-└── src/
-    ├── index.js
-    ├── cool-file.js
-    ├── another-file.js
-    └── utils/
-        └── number-utils.js
-```
-
 - Use double quotes (`quotes`)
 ```js
 // ✔️ Good

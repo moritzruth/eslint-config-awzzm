@@ -6,12 +6,6 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["pages/**/*.vue", "layouts/**/*.vue"],
-      rules: {
-        "unicorn/filename-case": ["warn", { case: "kebabCase" }]
-      }
-    },
-    {
       files: ["nuxt.config.js", "plugins/**/*"],
       rules: {
         "import/no-anonymous-default-export": "off",
