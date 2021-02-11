@@ -2,6 +2,7 @@ const { prefixKeys } = require("eslint-config-awzzm/utils")
 const { INLINE_ELEMENTS } = require("./inline-elements")
 
 module.exports = {
+  // plugin:vue/vue3-recommended includes essential (error), strongly recommended (warn) and recommended (warn)
   extends: ["awzzm", "plugin:vue/vue3-recommended"],
   parserOptions: {
     sourceType: "module",
@@ -18,20 +19,16 @@ module.exports = {
     /**
      * Essential
      */
-    "custom-event-name-casing": "warn",
     "no-dupe-v-else-if": "warn",
     "no-side-effects-in-computed-properties": "warn",
     "no-unused-components": "warn",
-    "no-unused-vars": "warn",
+    "no-unused-vars": "off",
     "no-use-v-if-with-v-for": "warn",
     "use-v-on-exact": "warn",
 
     /**
      * Strongly Recommended
      */
-    "attribute-hyphenation": "warn",
-    "component-definition-name-casing": "warn",
-    "html-closing-bracket-newline": "warn",
     "html-closing-bracket-spacing": ["warn", {
       startTag: "never",
       endTag: "never",
@@ -45,7 +42,6 @@ module.exports = {
     /**
      * Recommended
      */
-    "attributes-order": "warn",
     "component-tags-order": ["warn", { order: ["template", "style", "script"] }],
     "no-multiple-slot-args": "error",
     "this-in-template": "error",
@@ -57,28 +53,59 @@ module.exports = {
       singleline: "always",
       multiline: "always"
     }],
+    "component-name-in-template-casing": ["warn", "PascalCase", {
+      registeredComponentsOnly: true
+    }],
+    "custom-event-name-casing": "warn",
+    "html-comment-content-newline": "warn",
     "html-comment-content-spacing": "warn",
+    "html-comment-indent": "warn",
+    "match-component-file-name": ["warn", {
+      extensions: [".vue"],
+      shouldMatchCase: true
+    }],
+    "new-line-between-multi-line-property": "off",
+    "next-tick-style": "off",
+    "no-bare-strings-in-template": "off",
     "no-boolean-default": "error",
     "no-duplicate-attr-inheritance": "error",
-    "no-potential-component-option-typo": ["error", { presets: ["all"] }],
+    "no-empty-component-block": "off",
+    "no-multiple-objects-in-class": "warn",
+    "no-potential-component-option-typo": ["error", { presets: ["vue", "vue-router"] }],
     "no-reserved-component-names": ["error", { disallowVue3BuiltInComponents: true }],
+    "no-restricted-block": "off",
+    "no-restricted-call-after-await": "off",
+    "no-restricted-component-options": "off",
+    "no-restricted-custom-event": "off",
+    "no-restricted-props": "off",
+    "no-restricted-static-attribute": "off",
+    "no-restricted-v-bind": "off",
     "no-static-inline-styles": "warn",
     "no-template-target-blank": "warn",
+    "no-unregistered-components": "off",
+    "no-unsupported-features": ["warn", { version: "^3.0.0" }],
+    "no-unused-properties": "off",
     "no-useless-mustaches": "warn",
     "no-useless-v-bind": "warn",
     "padding-line-between-blocks": "warn",
-    "require-direct-export": "warn",
+    "require-direct-export": "off",
     "require-name-property": "warn",
     "script-indent": ["warn", 2, {
       baseIndent: 1,
       switchCase: 1
     }],
+    "sort-keys": "off",
+    "static-class-names-order": "off",
     "v-for-delimiter-style": "warn",
+    "v-on-event-hyphenation": "warn",
     "v-on-function-call": ["warn", "always"],
+    "valid-next-tick": "error",
 
     /**
      * Extension Rules
      */
+    "array-bracket-newline": ["warn", "consistent"],
+    "array-bracket-spacing": "warn",
     "arrow-spacing": "warn",
     "block-spacing": "warn",
     "brace-style": "warn",
@@ -93,13 +120,16 @@ module.exports = {
     "key-spacing": "warn",
     "keyword-spacing": "warn",
     "max-len": ["warn", { code: 120 }],
+    "no-constant-condition": "warn",
     "no-empty-pattern": "warn",
-    "no-extra-parens": ["warn", "all", { nestedBinaryExpressions: false }],
+    "no-extra-parens": "off",
     "no-sparse-arrays": "warn",
     "no-useless-concat": "warn",
     "object-curly-newline": "warn",
     "object-curly-spacing": ["warn", "always"],
+    "object-property-newline": "off",
     "operator-linebreak": "warn",
+    "prefer-template": "off",
     "space-in-parens": "warn",
     "space-infix-ops": "warn",
     "space-unary-ops": ["warn", { words: true, nonwords: false }],

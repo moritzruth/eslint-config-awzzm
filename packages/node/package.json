@@ -10,6 +10,9 @@
   },
   "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "engines": {
     "node": ">=14.0.0"
   },
