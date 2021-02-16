@@ -13,7 +13,7 @@ yarn add -D eslint-config-awzzm-ts
 Add it to your ESLint configuration:
 ```json
 {
-  "extends": ["awzzm-ts"]
+  "extends": ["awzzm-ts"] // or awzzm-ts/no-type-information
 }
 ```
 
