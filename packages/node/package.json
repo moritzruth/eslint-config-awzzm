@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-awzzm-node",
   "main": "index.js",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "An ESLint configuration for Node.js",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "node": ">=14.0.0"
   },
   "dependencies": {
-    "eslint-config-awzzm": "^1.5.0",
+    "eslint-config-awzzm": "^1.6.0",
     "eslint-plugin-node": "^11.1.0"
   }
 }
