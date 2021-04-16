@@ -26,7 +26,7 @@ module.exports = prefixKeys("unicorn/", {
   "no-for-loop": "warn",
   "no-hex-escape": "warn",
   "no-instanceof-array": "error",
-  "no-keyword-prefix": "warn",
+  "no-keyword-prefix": "off",
   "no-lonely-if": "off",
   "no-nested-ternary": "warn",
   "no-new-array": "error",

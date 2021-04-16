@@ -44,6 +44,7 @@ module.exports = {
      */
     "component-tags-order": ["warn", { order: ["template", "style", "script"] }],
     "no-multiple-slot-args": "error",
+    "no-v-html": "off",
     "this-in-template": "error",
 
     /**
@@ -98,7 +99,7 @@ module.exports = {
     "static-class-names-order": "off",
     "v-for-delimiter-style": "warn",
     "v-on-event-hyphenation": "warn",
-    "v-on-function-call": ["warn", "always"],
+    "v-on-function-call": "off",
     "valid-next-tick": "error",
 
     /**
@@ -119,7 +120,7 @@ module.exports = {
     "func-call-spacing": "warn",
     "key-spacing": "warn",
     "keyword-spacing": "warn",
-    "max-len": ["warn", { code: 120 }],
+    "max-len": ["warn", { code: 180 }],
     "no-constant-condition": "warn",
     "no-empty-pattern": "warn",
     "no-extra-parens": "off",
