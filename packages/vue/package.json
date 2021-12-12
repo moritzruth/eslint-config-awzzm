@@ -10,11 +10,6 @@
   },
   "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
-  "files": [
-    "nuxt.js",
-    "v3.js",
-    "inline-elements.js"
-  ],
   "dependencies": {
     "eslint-config-awzzm": "^2.0.0",
     "eslint-plugin-vue": "^8.2.0"

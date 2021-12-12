@@ -114,14 +114,8 @@ module.exports = {
     "vue/html-quotes": ["warn", "double", { avoidEscape: true }],
     "vue/html-self-closing": "warn",
     "vue/max-attributes-per-line": ["warn", {
-      "singleline": {
-        "max": 3,
-        "allowFirstLine": true
-      },
-      "multiline": {
-        "max": 1,
-        "allowFirstLine": false
-      }
+      "singleline": 3,
+      "multiline": 1
     }],
     "vue/multiline-html-element-content-newline": ["warn", {
       "ignoreWhenEmpty": true,
@@ -136,7 +130,7 @@ module.exports = {
     "vue/prop-name-casing": ["warn", "camelCase"],
     "vue/require-default-prop": "warn",
     "vue/require-prop-types": "warn",
-    "vue/singleline-html-element-content-newline": ["error", {
+    "vue/singleline-html-element-content-newline": ["warn", {
       "ignoreWhenNoAttributes": true,
       "ignoreWhenEmpty": true,
       "ignores": INLINE_ELEMENTS
