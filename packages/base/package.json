@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-awzzm",
   "main": "index.js",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "An ESLint configuration for modern TypeScript",
   "repository": {
     "type": "git",
