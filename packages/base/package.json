@@ -2,7 +2,7 @@
   "name": "eslint-config-awzzm",
   "main": "index.js",
   "version": "1.6.0",
-  "description": "An ESLint configuration for modern JavaScript",
+  "description": "An ESLint configuration for modern TypeScript",
   "repository": {
     "type": "git",
     "url": "https://github.com/moritzruth/eslint-config-awzzm.git",
@@ -10,13 +10,13 @@
   },
   "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
-  "files": [
-    "plugin-rules/*",
-    "utils.js"
-  ],
   "dependencies": {
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-unicorn": "^28.0.0",
-    "object.fromentries": "^2.0.3"
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-unicorn": "^39.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0"
   }
 }

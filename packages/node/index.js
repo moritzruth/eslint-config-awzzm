@@ -1,28 +1,22 @@
-const { prefixKeys } = require("eslint-config-awzzm/utils")
-
 module.exports = {
   extends: "awzzm",
   plugins: ["node"],
   env: {
     node: true
   },
-  parserOptions: {
-    ecmaVersion: 2020
-  },
-  rules: prefixKeys("node/", {
-    "handle-callback-err": "warn",
-    "no-callback-literal": "warn",
-    "no-new-require": "error",
-    "no-path-concat": "warn",
-    "no-deprecated-api": "warn",
-    "prefer-global/buffer": "warn",
-    "prefer-global/console": "warn",
-    "prefer-global/process": "warn",
-    "prefer-global/text-decoder": "warn",
-    "prefer-global/url-search-params": "warn",
-    "prefer-global/url": "warn",
-    "prefer-promises/dns": "warn",
-    "prefer-promises/fs": "warn",
-    "node/prefer-global/url": "off" // see https://github.com/sindresorhus/got/issues/989
-  })
+  rules: {
+    "node/handle-callback-err": "warn",
+    "node/no-callback-literal": "warn",
+    "node/no-new-require": "error",
+    "node/no-path-concat": "warn",
+    "node/no-deprecated-api": "warn",
+    "node/prefer-global/buffer": "warn",
+    "node/prefer-global/console": "warn",
+    "node/prefer-global/process": "warn",
+    "node/prefer-global/text-decoder": "warn",
+    "node/prefer-global/url-search-params": "warn",
+    "node/prefer-global/url": "off", // TypeScript does not know about this global yet
+    "node/prefer-promises/dns": "warn",
+    "node/prefer-promises/fs": "warn"
+  }
 }

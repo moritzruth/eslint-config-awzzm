@@ -1,16 +1,14 @@
 # eslint-config-awzzm
-> ESLint configurations for JavaScript, TypeScript, Node.js, Vue.js and NuxtJS
+> ESLint configurations for TypeScript, Node.js, Vue.js (v3) and NuxtJS (v3)
 
 First rule: Rules should support you, not slow you down.
 
 See the corresponding files for the different configurations:
 
-:yellow_heart: **[Base (JavaScript)](/packages/base)**
+:yellow_heart: **[Base (TypeScript)](/packages/base)**
 
-:green_heart: **[Vue.js and NuxtJS](/packages/vue)**
+:green_heart: **[Vue.js (v3) and NuxtJS (v3)](/packages/vue)**
 
 :purple_heart: **[Node.js](/packages/node)**
-
-:blue_heart: **[TypeScript](/packages/ts)**
 
 > Note: You don't need to install the base if you want to use a more specific configuration.

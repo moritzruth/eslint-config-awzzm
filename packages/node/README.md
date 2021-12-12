@@ -20,18 +20,17 @@ Add it to your ESLint configuration:
 ```
 
 ## Specifying Your Node.js Version
-In order to work properly,
-[`node/no-unsupported-features/es-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-builtins.md),
-[`node/no-unsupported-features/es-syntax`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-syntax.md) and
-[`node/no-unsupported-features/node-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/node-builtins.md)
+In order to work properly, some rules
 [require you](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/node-builtins.md#configured-nodejs-version-range)
-to specify the Node.js version you're using in your package.json like this:
+to specify the Node.js version you're using in your package.json:
 ```json
 {
+  "name": "my-package",
+  // ...
   "engines": {
     "node": ">=10.0.0"
   }
 }
 ```
 
-Also, you should lint your project with the same Node.js version as the one you use for running it.
+You should lint your files with the same Node.js version as you use for running it.

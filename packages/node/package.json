@@ -10,14 +10,11 @@
   },
   "author": "Moritz Ruth <dev@moritzruth.de>",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
   "engines": {
     "node": ">=14.0.0"
   },
   "dependencies": {
-    "eslint-config-awzzm": "^1.6.0",
+    "eslint-config-awzzm": "1.6.0",
     "eslint-plugin-node": "^11.1.0"
   }
 }
